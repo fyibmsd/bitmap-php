@@ -14,7 +14,7 @@ class Bitmap
 
     const MIN_OFFSET = 0;
 
-    const MAX_OFFSET = 1 << 32 - 1;
+    const MAX_OFFSET = (1 << 32) - 1;
 
     /**
      * Bitmap constructor.
